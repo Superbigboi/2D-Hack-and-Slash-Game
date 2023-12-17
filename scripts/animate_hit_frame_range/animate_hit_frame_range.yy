@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "move_and_collide",
+  "name": "animate_hit_frame_range",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

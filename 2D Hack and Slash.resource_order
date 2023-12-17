@@ -1,0 +1,19 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"animate_hit_frame_range","order":1,"path":"scripts/animate_hit_frame_range/animate_hit_frame_range.yy",},
+    {"name":"s_skeleton_attack_three_damage","order":3,"path":"sprites/s_skeleton_attack_three_damage/s_skeleton_attack_three_damage.yy",},
+    {"name":"s_skeleton_bones","order":6,"path":"sprites/s_skeleton_bones/s_skeleton_bones.yy",},
+    {"name":"s_skeleton_roll","order":10,"path":"sprites/s_skeleton_roll/s_skeleton_roll.yy",},
+    {"name":"s_skeleton_attack_two","order":4,"path":"sprites/s_skeleton_attack_two/s_skeleton_attack_two.yy",},
+    {"name":"s_skeleton_attack_two_damage","order":5,"path":"sprites/s_skeleton_attack_two_damage/s_skeleton_attack_two_damage.yy",},
+    {"name":"s_skeleton_run","order":11,"path":"sprites/s_skeleton_run/s_skeleton_run.yy",},
+    {"name":"s_skeleton_hitstun","order":7,"path":"sprites/s_skeleton_hitstun/s_skeleton_hitstun.yy",},
+    {"name":"s_skeleton_idle","order":8,"path":"sprites/s_skeleton_idle/s_skeleton_idle.yy",},
+    {"name":"s_wall","order":13,"path":"sprites/s_wall/s_wall.yy",},
+    {"name":"s_skeleton_attack_one_damage","order":1,"path":"sprites/s_skeleton_attack_one_damage/s_skeleton_attack_one_damage.yy",},
+    {"name":"o_wall","order":1,"path":"objects/o_wall/o_wall.yy",},
+    {"name":"s_skeleton_mask","order":9,"path":"sprites/s_skeleton_mask/s_skeleton_mask.yy",},
+    {"name":"s_skeleton_attack_three","order":2,"path":"sprites/s_skeleton_attack_three/s_skeleton_attack_three.yy",},
+  ],
+}
