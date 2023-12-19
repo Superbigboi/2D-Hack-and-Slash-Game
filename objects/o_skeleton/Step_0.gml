@@ -32,7 +32,7 @@ switch (state){
 		
 	case "roll":
 	#region Roll State
-	sprite_index = s_skeleton_roll;
+	set_state_sprite(s_skeleton_roll, 0.5, 0);
 	
 	if image_xscale == 1{
 		move_and_collide(6, 0);
@@ -45,18 +45,18 @@ switch (state){
 	
 	case "attack one":
 	#region Attack One State 
-		sprite_index  = s_skeleton_attack_one;
-			if keyboard_check_pressed(vk_lcontrol) and animate_hit_frame_range(2,5){
-		image_index = 0;
+	set_state_sprite(s_skeleton_attack_one,  0.5, 0) 
+		
+		if keyboard_check_pressed(vk_lcontrol) and animate_hit_frame_range(2,5){
 		state = "attack two";
-	}
+		}
 		
 	#endregion
 	break;
 	
 		case "attack two":
 	#region Attack Two State 
-		sprite_index = s_skeleton_attack_two;
+	set_state_sprite(s_skeleton_attack_two, 0.5, 0) 
 	#endregion
 	break;
 }

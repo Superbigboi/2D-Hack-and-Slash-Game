@@ -37,6 +37,7 @@
     {"id":{"name":"animate_hit_frame_range","path":"scripts/animate_hit_frame_range/animate_hit_frame_range.yy",},},
     {"id":{"name":"s_skeleton_attack_three_damage","path":"sprites/s_skeleton_attack_three_damage/s_skeleton_attack_three_damage.yy",},},
     {"id":{"name":"s_skeleton_bones","path":"sprites/s_skeleton_bones/s_skeleton_bones.yy",},},
+    {"id":{"name":"set_state_sprite","path":"scripts/set_state_sprite/set_state_sprite.yy",},},
     {"id":{"name":"s_skeleton_roll","path":"sprites/s_skeleton_roll/s_skeleton_roll.yy",},},
     {"id":{"name":"s_skeleton_attack_two","path":"sprites/s_skeleton_attack_two/s_skeleton_attack_two.yy",},},
     {"id":{"name":"s_skeleton_attack_two_damage","path":"sprites/s_skeleton_attack_two_damage/s_skeleton_attack_two_damage.yy",},},
