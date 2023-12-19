@@ -57,6 +57,15 @@ switch (state){
 		case "attack two":
 	#region Attack Two State 
 	set_state_sprite(s_skeleton_attack_two, 0.5, 0) 
+		if keyboard_check_pressed(vk_lcontrol) and animate_hit_frame_range(2,4){
+		state = "attack three";
+		}
+	#endregion
+	break;
+	
+			case "attack three":
+	#region Attack Three State 
+	set_state_sprite(s_skeleton_attack_three, 0.5, 0) 
 	#endregion
 	break;
 }
