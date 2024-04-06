@@ -1,10 +1,15 @@
-function set_state_sprite(_sprite, _speed, _index ) {
-	if sprite_index != _sprite {
-		sprite_index = _sprite;
-		image_speed = _speed;	
-		image_index = _index;
+function set_state_sprite() {
+	var new_sprite = argument0;
+	var new_speed = argument1;
+	var new_index = argument2;
+	if sprite_index != new_sprite {
+		sprite_index = new_sprite;
+		image_speed = new_speed;
+		image_index = new_index;
 	}	
 }image_index = 0;
+
+
 // shits not working
 // so use this
 // and replace 

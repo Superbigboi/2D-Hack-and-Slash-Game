@@ -1,5 +1,7 @@
 ///arg low
 ///arg high
 function animate_hit_frame_range(){
-	return image_index >= argument0 and image_index <= argument1 
+	var low = argument0;
+	var high = argument1;
+	return image_index >= low and image_index <= high; 
 }

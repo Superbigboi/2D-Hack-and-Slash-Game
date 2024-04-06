@@ -1,6 +1,6 @@
 {
-  "FolderOrderSettings": [],
-  "ResourceOrderSettings": [
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
     {"name":"animate_hit_frame_range","order":1,"path":"scripts/animate_hit_frame_range/animate_hit_frame_range.yy",},
     {"name":"s_skeleton_attack_three_damage","order":3,"path":"sprites/s_skeleton_attack_three_damage/s_skeleton_attack_three_damage.yy",},
     {"name":"s_skeleton_bones","order":6,"path":"sprites/s_skeleton_bones/s_skeleton_bones.yy",},

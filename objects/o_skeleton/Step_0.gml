@@ -5,12 +5,12 @@ switch (state){
 	case "move":
 	#region Move State
 	if keyboard_check(vk_right){
-		move_and_collide(4,0);
+		move_and_collide(run_speed,0);
 		image_xscale = 1;
 		sprite_index = s_skeleton_run;
 	}
 	if keyboard_check(vk_left){
-		move_and_collide(-4,0);
+		move_and_collide(-run_speed,0);
 		image_xscale = -1;
 		sprite_index = s_skeleton_run;
 	}
@@ -35,10 +35,10 @@ switch (state){
 	set_state_sprite(s_skeleton_roll, 0.5, 0);
 	
 	if image_xscale == 1{
-		move_and_collide(6, 0);
+		move_and_collide(roll_speed, 0);
 	}
 	if image_xscale == -1{
-		move_and_collide(-6,0);
+		move_and_collide(-roll_speed,0);
 	}
 	#endregion
 		break;
