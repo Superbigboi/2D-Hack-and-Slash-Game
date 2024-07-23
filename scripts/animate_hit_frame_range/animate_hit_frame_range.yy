@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"animate_hit_frame_range",
   "isCompatibility":false,
   "isDnD":false,

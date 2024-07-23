@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"set_state_sprite",
+  "%Name":"get_input",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"set_state_sprite",
+  "name":"get_input",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
