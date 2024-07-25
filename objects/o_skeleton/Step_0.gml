@@ -4,7 +4,7 @@
 switch (state){
 	case "move":
 	#region Move State
-	if keyboard_check(vk_right){
+	if input.right{
 		move_and_collide(run_speed,0);
 		image_xscale = 1;
 		sprite_index = s_skeleton_run;
