@@ -1,5 +1,7 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Knight","order":14,"path":"folders/Sprites/Knight.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"o_input","order":2,"path":"objects/o_input/o_input.yy",},
     {"name":"o_wall","order":1,"path":"objects/o_wall/o_wall.yy",},

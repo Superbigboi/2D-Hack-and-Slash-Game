@@ -9,21 +9,20 @@ switch (state){
 		image_xscale = 1;
 		sprite_index = s_skeleton_run;
 	}
-	if keyboard_check(vk_left){
+	if input.left{
 		move_and_collide(-run_speed,0);
 		image_xscale = -1;
 		sprite_index = s_skeleton_run;
 	}
 	
-	if not keyboard_check(vk_right) and not keyboard_check(vk_left){
-
+	if not input.right and not input.left{
 		sprite_index = s_skeleton_idle;
 	}
-	if keyboard_check_pressed(vk_space){
+	if input.roll{
 		state = "roll";
 		image_index = 0;
 	}
-	if keyboard_check_pressed(vk_lcontrol){
+	if input.attack{
 		image_index = 0;
 		state = "attack one";
 	}
@@ -47,7 +46,7 @@ switch (state){
 	#region Attack One State 
 	set_state_sprite(s_skeleton_attack_one,  0.5, 0) 
 		
-		if keyboard_check_pressed(vk_lcontrol) and animate_hit_frame_range(2,5){
+		if input.attack and animate_hit_frame_range(2,5){
 		state = "attack two";
 		}
 		
@@ -57,7 +56,7 @@ switch (state){
 		case "attack two":
 	#region Attack Two State 
 	set_state_sprite(s_skeleton_attack_two, 0.5, 0) 
-		if keyboard_check_pressed(vk_lcontrol) and animate_hit_frame_range(2,4){
+		if input.attack and animate_hit_frame_range(2,4){
 		state = "attack three";
 		}
 	#endregion
