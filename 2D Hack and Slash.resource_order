@@ -1,13 +1,20 @@
 {
   "FolderOrderSettings":[
-    {"name":"Knight","order":14,"path":"folders/Sprites/Knight.yy",},
+    {"name":"Knight","order":1,"path":"folders/Sprites/Knight.yy",},
+    {"name":"Skeleton","order":2,"path":"folders/Sprites/Skeleton.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"o_input","order":2,"path":"objects/o_input/o_input.yy",},
+    {"name":"o_knight","order":3,"path":"objects/o_knight/o_knight.yy",},
     {"name":"o_wall","order":1,"path":"objects/o_wall/o_wall.yy",},
     {"name":"animate_hit_frame_range","order":1,"path":"scripts/animate_hit_frame_range/animate_hit_frame_range.yy",},
     {"name":"get_input","order":3,"path":"scripts/get_input/get_input.yy",},
     {"name":"set_state_sprite","order":2,"path":"scripts/set_state_sprite/set_state_sprite.yy",},
+    {"name":"s_knight_attack","order":3,"path":"sprites/s_knight_attack/s_knight_attack.yy",},
+    {"name":"s_knight_die","order":4,"path":"sprites/s_knight_die/s_knight_die.yy",},
+    {"name":"s_knight_hitstun","order":5,"path":"sprites/s_knight_hitstun/s_knight_hitstun.yy",},
+    {"name":"s_knight_mask","order":1,"path":"sprites/s_knight_mask/s_knight_mask.yy",},
+    {"name":"s_knight_walk","order":2,"path":"sprites/s_knight_walk/s_knight_walk.yy",},
     {"name":"s_skeleton_attack_one_damage","order":1,"path":"sprites/s_skeleton_attack_one_damage/s_skeleton_attack_one_damage.yy",},
     {"name":"s_skeleton_attack_three_damage","order":3,"path":"sprites/s_skeleton_attack_three_damage/s_skeleton_attack_three_damage.yy",},
     {"name":"s_skeleton_attack_three","order":2,"path":"sprites/s_skeleton_attack_three/s_skeleton_attack_three.yy",},
@@ -19,6 +26,5 @@
     {"name":"s_skeleton_mask","order":9,"path":"sprites/s_skeleton_mask/s_skeleton_mask.yy",},
     {"name":"s_skeleton_roll","order":10,"path":"sprites/s_skeleton_roll/s_skeleton_roll.yy",},
     {"name":"s_skeleton_run","order":11,"path":"sprites/s_skeleton_run/s_skeleton_run.yy",},
-    {"name":"s_wall","order":13,"path":"sprites/s_wall/s_wall.yy",},
   ],
 }
