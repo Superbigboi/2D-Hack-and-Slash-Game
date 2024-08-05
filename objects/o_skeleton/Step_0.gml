@@ -39,6 +39,10 @@ switch (state){
 	if image_xscale == -1{
 		move_and_collide(-roll_speed,0);
 	}
+	
+	if(animation_end()){
+		state="move"
+	}
 	#endregion
 		break;
 	
@@ -50,6 +54,8 @@ switch (state){
 		state = "attack two";
 		}
 		
+		if animation_end(){state="move"}
+		
 	#endregion
 	break;
 	
@@ -59,12 +65,14 @@ switch (state){
 		if input.attack and animate_hit_frame_range(2,4){
 		state = "attack three";
 		}
+		if animation_end(){state="move"}
 	#endregion
 	break;
 	
 			case "attack three":
 	#region Attack Three State 
-	set_state_sprite(s_skeleton_attack_three, 0.5, 0) 
+	set_state_sprite(s_skeleton_attack_three, 0.5, 0);
+	if animation_end(){state="move"}
 	#endregion
 	break;
 }

@@ -41,6 +41,8 @@
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},},
     {"id":{"name":"r_graveyard","path":"rooms/r_graveyard/r_graveyard.yy",},},
     {"id":{"name":"animate_hit_frame_range","path":"scripts/animate_hit_frame_range/animate_hit_frame_range.yy",},},
+    {"id":{"name":"animation_end","path":"scripts/animation_end/animation_end.yy",},},
+    {"id":{"name":"animation_hit_frame","path":"scripts/animation_hit_frame/animation_hit_frame.yy",},},
     {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},},
     {"id":{"name":"move_and_collide","path":"scripts/move_and_collide/move_and_collide.yy",},},
     {"id":{"name":"set_state_sprite","path":"scripts/set_state_sprite/set_state_sprite.yy",},},
