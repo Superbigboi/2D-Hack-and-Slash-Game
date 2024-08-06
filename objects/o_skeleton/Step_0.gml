@@ -81,7 +81,7 @@ switch (state){
 	#region Attack Three State 
 	set_state_sprite(s_skeleton_attack_three, 0.5, 0);
 			if animation_hit_frame(2){
-			create_hitbox(x,y, self, s_skeleton_attack_three_damage, 4, 4, 0, image_xscale)
+			create_hitbox(x,y, self, s_skeleton_attack_three_damage, 4, 4, 1, image_xscale)
 		}
 	if animation_end(){state="move"}
 	#endregion
