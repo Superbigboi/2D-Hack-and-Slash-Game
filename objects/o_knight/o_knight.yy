@@ -37,6 +37,9 @@
     "name":"s_knight_idle",
     "path":"sprites/s_knight_idle/s_knight_idle.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"s_knight_mask",
+    "path":"sprites/s_knight_mask/s_knight_mask.yy",
+  },
   "visible":true,
 }
