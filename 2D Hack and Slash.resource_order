@@ -7,6 +7,7 @@
     {"name":"o_hitbox","order":4,"path":"objects/o_hitbox/o_hitbox.yy",},
     {"name":"o_input","order":2,"path":"objects/o_input/o_input.yy",},
     {"name":"o_knight","order":3,"path":"objects/o_knight/o_knight.yy",},
+    {"name":"o_lifeform","order":5,"path":"objects/o_lifeform/o_lifeform.yy",},
     {"name":"o_wall","order":1,"path":"objects/o_wall/o_wall.yy",},
     {"name":"animate_hit_frame_range","order":1,"path":"scripts/animate_hit_frame_range/animate_hit_frame_range.yy",},
     {"name":"animation_end","order":5,"path":"scripts/animation_end/animation_end.yy",},

@@ -38,6 +38,7 @@
     {"id":{"name":"o_hitbox","path":"objects/o_hitbox/o_hitbox.yy",},},
     {"id":{"name":"o_input","path":"objects/o_input/o_input.yy",},},
     {"id":{"name":"o_knight","path":"objects/o_knight/o_knight.yy",},},
+    {"id":{"name":"o_lifeform","path":"objects/o_lifeform/o_lifeform.yy",},},
     {"id":{"name":"o_skeleton","path":"objects/o_skeleton/o_skeleton.yy",},},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},},
     {"id":{"name":"r_graveyard","path":"rooms/r_graveyard/r_graveyard.yy",},},
