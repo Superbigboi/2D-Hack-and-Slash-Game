@@ -1,6 +1,6 @@
 switch (state){
 	case "chase":
-		#region Move State
+		#region Move State 
 	
 	set_state_sprite(s_knight_walk, 0.4, 0);
 	if not instance_exists(o_skeleton) break;
