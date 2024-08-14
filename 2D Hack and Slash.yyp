@@ -45,6 +45,7 @@
     {"id":{"name":"animate_hit_frame_range","path":"scripts/animate_hit_frame_range/animate_hit_frame_range.yy",},},
     {"id":{"name":"animation_end","path":"scripts/animation_end/animation_end.yy",},},
     {"id":{"name":"animation_hit_frame","path":"scripts/animation_hit_frame/animation_hit_frame.yy",},},
+    {"id":{"name":"approach","path":"scripts/approach/approach.yy",},},
     {"id":{"name":"create_hitbox","path":"scripts/create_hitbox/create_hitbox.yy",},},
     {"id":{"name":"get_input","path":"scripts/get_input/get_input.yy",},},
     {"id":{"name":"move_and_collide","path":"scripts/move_and_collide/move_and_collide.yy",},},

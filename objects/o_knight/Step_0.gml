@@ -32,6 +32,12 @@ switch (state){
 	case "knockback":
 		#region Knockback State
 			set_state_sprite(s_knight_hitstun,0,0);
+			move_and_collide(knockback_speed,0);
+			knockback_speed = lerp(knockback_speed,0,0.1);
+			if knockback_speed < 1{
+				knockback_speed=0;
+				state = "chase";
+			}
 		#endregion
 		break;
 		

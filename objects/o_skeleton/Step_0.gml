@@ -54,7 +54,7 @@ switch (state){
 			create_hitbox(x,y, self, s_skeleton_attack_one_damage, 4, 4, 5, image_xscale)
 		}
 		
-		if input.attack and animate_hit_frame_range(2,5){
+		if input.attack and animate_hit_frame_range(2,4){
 		state = "attack two";
 		}
 		
