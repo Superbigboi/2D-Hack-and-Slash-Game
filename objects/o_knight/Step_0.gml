@@ -28,4 +28,15 @@ switch (state){
 		if animation_end(){state="chase"}
 		#endregion
 		break;
+		
+	case "knockback":
+		#region Knockback State
+			set_state_sprite(s_knight_hitstun,0,0);
+		#endregion
+		break;
+		
+	default:
+		show_debug_message("State "+state+" does not exist");
+		state = "chase";
+		break;
 }

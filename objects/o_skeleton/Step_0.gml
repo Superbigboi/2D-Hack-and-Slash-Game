@@ -86,5 +86,10 @@ switch (state){
 	if animation_end(){state="move"}
 	#endregion
 	break;
+	
+	default:
+	show_debug_message("State "+state+" does not exist");
+	state = "move";
+	break;
 }
 
